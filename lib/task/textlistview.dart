@@ -22,7 +22,7 @@ class TextListView extends StatelessWidget {
       child: ListView(
         children: <Widget>[
           Container(
-            padding: const EdgeInsets.fromLTRB(16, 8, 8, 8),
+            padding: const EdgeInsets.fromLTRB(16, 0, 8, 8),
             child: const Row(
               children: [
                 Image(image: AssetImage('assets/sale.png')),// Example child widgets

@@ -14,8 +14,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        extendBodyBehindAppBar: true,
         appBar: AppBar(
-          title: Text('My App'),
+          backgroundColor: Colors.transparent,
+          elevation: 0,
         ),
         body: Column(
           children: [
@@ -59,8 +61,8 @@ class _ImageSliderWithStackIndicatorsState
           children: <Widget>[
             CarouselSlider(
               options: CarouselOptions(
-                height: 384,
-                autoPlay: false, // Set your custom height
+                height: 480,
+                autoPlay: false,
                 viewportFraction: 1.0,
                 onPageChanged: (index, reason) {
                   setState(() {
