@@ -1,19 +1,5 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        body: ContainerWithRows(),
-      ),
-    );
-  }
-}
 
 class ContainerWithRows extends StatelessWidget {
   @override
@@ -26,11 +12,11 @@ class ContainerWithRows extends StatelessWidget {
             children: [
               Text('Puff Sleeve Eyelet Mini Dress',
                 style: TextStyle(
-                  fontSize: 16,
+                  fontSize: 18,
                   // fontWeight: FontWeight.bold,
                 ),
               ),
-              SizedBox(width: 125),
+              SizedBox(width: 100),
               Image(image: AssetImage('assets/heart_icon.png'))
             ],
           ),

@@ -1,24 +1,5 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Button Row Example'),
-        ),
-        body: Center(
-          child: ButtonRow(),
-        ),
-      ),
-    );
-  }
-}
 
 class ButtonRow extends StatelessWidget {
   @override

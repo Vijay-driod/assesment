@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:flutter_assesment/Task/textlistview.dart';
+import 'package:flutter_assesment/Task/text_listview.dart';
 import 'buttons.dart';
-import 'textdescription.dart';
+import 'text_description.dart';
 
 
 void main() {
@@ -61,7 +61,7 @@ class _ImageSliderWithStackIndicatorsState
           children: <Widget>[
             CarouselSlider(
               options: CarouselOptions(
-                height: 480,
+                height: 525,
                 autoPlay: false,
                 viewportFraction: 1.0,
                 onPageChanged: (index, reason) {
